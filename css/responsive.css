@@ -25,6 +25,9 @@
     text-align: center;
     transition: left 0.3s ease;
   }
+  nav .nav-items .btn {
+    margin-left: 0px;
+  }
   nav .nav-items.active {
     left: 0;
   }
@@ -87,9 +90,9 @@
   .get-touch {
     width: 100%;
   }
- 
+
   /* footer  */
-  .footer-logo a{
+  .footer-logo a {
     font-size: 20px;
   }
 }

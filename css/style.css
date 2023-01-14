@@ -85,6 +85,10 @@ nav .nav-items {
   list-style: none;
   display: flex;
   padding: 0 0 0 40px;
+  align-items: center;
+}
+nav .nav-items .btn {
+  margin-left: 200px;
 }
 nav .nav-items li {
   padding: 0 15px;
