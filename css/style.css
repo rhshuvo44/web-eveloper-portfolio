@@ -52,6 +52,17 @@ img {
 .d-grid {
   display: grid;
 }
+.btn {
+  padding: 10px 20px;
+  text-transform: capitalize;
+  background: yellow;
+  border: none;
+  outline: 0;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 600;
+}
 /* nav-section start  */
 nav {
   display: flex;
@@ -86,18 +97,6 @@ nav .nav-items li a {
 nav .nav-items li a:hover,
 nav .nav-items li .active {
   color: var(--white-color);
-}
-
-nav button.btn {
-  padding: 10px 20px;
-  text-transform: capitalize;
-  background: yellow;
-  border: none;
-  outline: 0;
-  cursor: pointer;
-  font-size: 16px;
-  line-height: 1.5;
-  font-weight: 600;
 }
 
 nav .menu-icon,
@@ -179,4 +178,15 @@ nav .cancel-icon {
 .faqs-content p {
   line-height: 1.5;
   margin-top: 10px;
+}
+/* get-touch */
+.get-touch {
+  padding: 70px 0px;
+}
+.get-touch h2 {
+  font-size: 38px;
+  line-height: 1.5;
+}
+.get-touch p {
+  padding: 15px 0px;
 }

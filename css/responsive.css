@@ -76,6 +76,20 @@
   .portfolio {
     grid-template-columns: repeat(1, 1fr);
   }
+  /* faqs  */
+  .faqs-box {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .faqs-content h2 {
+    font-size: 30px;
+  }
+  /* get-touch */
+  .get-touch {
+    width: 100%;
+  }
+  .get-touch h2 {
+    font-size: 26px;
+  }
 }
 @media (max-width: 350px) {
   nav .logo a {
