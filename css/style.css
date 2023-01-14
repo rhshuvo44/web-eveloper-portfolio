@@ -7,19 +7,41 @@
   margin: 0;
   box-sizing: border-box;
 }
+:root {
+  --white-color: #fff;
+  --black-color: #000;
+  --gray-color: #8d8787;
+}
 h1,
 h2,
 h3,
 h4,
 h5 {
   font-family: "Prata", serif;
+  color: var(--white-color);
+}
+p {
+  color: var(--gray-color);
 }
 a {
   text-decoration: none;
 }
 body {
   font-family: "Inter", sans-serif;
-  background: black;
+  background: var(--black-color);
+}
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+.w-75 {
+  width: 75%;
+}
+.w-50 {
+  width: 50%;
+}
+.d-flex {
+  display: flex;
 }
 /* nav-section start  */
 nav {
@@ -31,7 +53,7 @@ nav {
   padding: 0 100px;
 }
 nav .logo a {
-  color: #fff;
+  color: var(--white-color);
   font-size: 30px;
   font-weight: 600;
   letter-spacing: -1px;
@@ -45,7 +67,7 @@ nav .nav-items li {
   padding: 0 15px;
 }
 nav .nav-items li a {
-  color: #8d8787;
+  color: var(--gray-color);
   text-decoration: none;
   font-size: 18px;
   font-weight: 500;
@@ -54,7 +76,7 @@ nav .nav-items li a {
 }
 nav .nav-items li a:hover,
 nav .nav-items li .active {
-  color: #fff;
+  color: var(--white-color);
 }
 
 nav button.btn {
@@ -72,7 +94,7 @@ nav button.btn {
 nav .menu-icon,
 nav .cancel-icon {
   width: 40px;
-  color: #fff;
+  color: var(--white-color);
   text-align: center;
   margin: 0 50px;
   font-size: 18px;
@@ -80,9 +102,23 @@ nav .cancel-icon {
   display: none;
 }
 nav .cancel-icon {
-  color: #fff;
+  color: var(--white-color);
 }
 nav .menu-icon span,
 nav .cancel-icon {
   display: none;
+}
+
+/* banner section  */
+.banner-section {
+  padding: 50px 0;
+}
+.banner-section .banner-content h1 {
+  font-size: 70px;
+  line-height: 1.5;
+}
+.banner-section .banner-content p {
+  font-size: 24px;
+  line-height: 1.5;
+  font-weight: 300;
 }
