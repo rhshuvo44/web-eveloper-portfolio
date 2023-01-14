@@ -26,6 +26,9 @@ p {
 a {
   text-decoration: none;
 }
+ul {
+  list-style: none;
+}
 body {
   font-family: "Inter", sans-serif;
   background: var(--black-color);
@@ -72,7 +75,7 @@ nav {
   height: 70px;
   padding: 0 100px;
 }
-nav .logo a {
+.logo a {
   color: var(--white-color);
   font-size: 30px;
   font-weight: 600;
@@ -189,4 +192,26 @@ nav .cancel-icon {
 }
 .get-touch p {
   padding: 15px 0px;
+}
+
+/* footer */
+footer {
+  background: #202020;
+  padding: 50px 0px;
+}
+.footer-content {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-social ul li {
+  padding: 10px;
+}
+.footer-social ul li a {
+  background: var(--white-color);
+  padding: 10px;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #202020;
+  border-radius: 50%;
 }

@@ -87,8 +87,10 @@
   .get-touch {
     width: 100%;
   }
-  .get-touch h2 {
-    font-size: 26px;
+ 
+  /* footer  */
+  .footer-logo a{
+    font-size: 20px;
   }
 }
 @media (max-width: 350px) {
