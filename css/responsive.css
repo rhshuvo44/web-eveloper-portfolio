@@ -72,6 +72,10 @@
   .partner-section .partner-content {
     grid-template-columns: repeat(3, 1fr);
   }
+  /* portfolio */
+  .portfolio {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 @media (max-width: 350px) {
   nav .logo a {
