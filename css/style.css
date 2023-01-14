@@ -30,6 +30,11 @@ body {
   font-family: "Inter", sans-serif;
   background: var(--black-color);
 }
+img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
 .container {
   width: 85%;
   margin: 0 auto;
@@ -42,6 +47,9 @@ body {
 }
 .d-flex {
   display: flex;
+}
+.d-grid {
+  display: grid;
 }
 /* nav-section start  */
 nav {
@@ -122,3 +130,13 @@ nav .cancel-icon {
   line-height: 1.5;
   font-weight: 300;
 }
+
+/* partner section start  */
+.partner-section .partner-content {
+  grid-template-columns: repeat(6, 1fr);
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  grid-gap: 90px;
+}
+
