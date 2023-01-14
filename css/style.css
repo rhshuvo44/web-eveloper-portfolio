@@ -1,9 +1,88 @@
 /* font  */
-
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Prata&display=swap");
 
 /* common css  */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Prata", serif;
+}
+a {
+  text-decoration: none;
+}
+body {
+  font-family: "Inter", sans-serif;
+  background: black;
+}
+/* nav-section start  */
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  padding: 0 100px;
+}
+nav .logo a {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: -1px;
+}
+nav .nav-items {
+  list-style: none;
+  display: flex;
+  padding: 0 0 0 40px;
+}
+nav .nav-items li {
+  padding: 0 15px;
+}
+nav .nav-items li a {
+  color: #8d8787;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: capitalize;
+  transition: all 0.5s;
+}
+nav .nav-items li a:hover,
+nav .nav-items li .active {
+  color: #fff;
+}
+
+nav button.btn {
+  padding: 10px 20px;
+  text-transform: capitalize;
+  background: yellow;
+  border: none;
+  outline: 0;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+nav .menu-icon,
+nav .cancel-icon {
+  width: 40px;
+  color: #fff;
+  text-align: center;
+  margin: 0 50px;
+  font-size: 18px;
+  cursor: pointer;
+  display: none;
+}
+nav .cancel-icon {
+  color: #fff;
+}
+nav .menu-icon span,
+nav .cancel-icon {
+  display: none;
 }
