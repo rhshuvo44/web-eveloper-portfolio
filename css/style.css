@@ -160,3 +160,23 @@ nav .cancel-icon {
   line-height: 1.5;
   margin-top: 10px;
 }
+/* faqs */
+.faqs {
+  background: #202020;
+  padding: 50px 0px;
+}
+.faqs-box {
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+}
+.faqs-content {
+  padding: 15px 0px;
+}
+.faqs-content h2 {
+  font-size: 41px;
+  line-height: 1.5;
+}
+.faqs-content p {
+  line-height: 1.5;
+  margin-top: 10px;
+}
